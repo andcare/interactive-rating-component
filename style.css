@@ -122,6 +122,7 @@ button {
     line-height: 1.4;
     margin-bottom: 35px;
     color: var(--neutral-color-300);
+    font-size: var(--font-size-400);
     font-weight: var(--font-weight-regular);
 }
 
@@ -175,12 +176,12 @@ button {
 
 .message-box {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     margin: 0 auto;
     z-index: -1;
     opacity: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
     transition: all 500ms ease-in-out;
 }
 
@@ -217,7 +218,7 @@ button {
 }
 
 .thanks__appreciation {
-    margin-bottom: 25px ;
+    margin-bottom: 15px ;
     color: var(--neutral-color-50);
     font-size: var(--font-size-500);
     font-weight: var(--font-weight-bold);
@@ -225,10 +226,65 @@ button {
 
 .thanks__message {
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     color: var(--neutral-color-300);
+    font-size: var(--font-size-300);
 }
 
 .attribution {
     margin-top: 25px;
+}
+
+@media screen and (min-width: 26.25em) {
+    .rating {
+        aspect-ratio: 1 / 1;
+        width: 410px;
+        padding-inline: 30px;
+        padding-top: 30px;
+    }
+
+    .rating__image {
+        aspect-ratio: 1 / 1;
+        width: 48px;
+        margin-bottom: 35px;
+    }
+
+    .rating__star {
+        aspect-ratio: 1 / 1;
+        width: 19px;
+    }
+
+    .rating__question {
+        font-size: var(--font-size-600);
+    }
+
+    .rating__button {
+        aspect-ratio: 1 / 1;
+        width: 50px;
+        font-size: var(--font-size-400);
+    }
+
+    .submit-button {
+        font-size: var(--font-size-400);
+        letter-spacing: 1px;
+    }
+
+    .thanks {
+        aspect-ratio: 1 / 1;
+        width: 410px;
+        padding-inline: 30px;
+        padding-top: 45px;
+    }
+
+    .thanks__image {
+        margin-bottom: 35px;
+    }
+
+    .thanks__appreciation {
+        font-size: var(--font-size-600);
+    }
+
+    .thanks__message {
+        font-size: var(--font-size-400);
+    }
 }
