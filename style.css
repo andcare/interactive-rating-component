@@ -63,6 +63,11 @@ button {
     color:   var(--neutral-color-50);
 }
 
+button:focus {
+    outline: none;
+    border: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
     html:focus-within {
      scroll-behavior: auto;
