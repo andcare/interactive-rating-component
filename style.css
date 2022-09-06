@@ -195,7 +195,6 @@ button:focus {
     transform:  translate(-50%, -45%);
     transition: all 500ms ease-in-out;
     -webkit-transition: all 500ms ease-in-out;
-    -webkit-transition: -webkit-all 500ms ease-in-out;
 }
 
 .message-box.is-active {
