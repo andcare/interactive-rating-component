@@ -66,6 +66,8 @@ button {
 button:focus {
     outline: none;
     border: none;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -177,6 +179,10 @@ button:focus {
 .submit-button:hover {
     color:            var(--primary-color-400);
     background-color: var(--neutral-color-50);
+}
+
+.submit-button:focus {
+    -webkit-tap-highlight-color: transparent;
 }
 
 .message-box {
