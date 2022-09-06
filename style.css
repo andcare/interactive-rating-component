@@ -70,7 +70,7 @@ button:focus {
 
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
     html:focus-within {
      scroll-behavior: auto;
     }
@@ -83,7 +83,7 @@ button:focus {
       transition-duration:       0.01ms !important;
       scroll-behavior:           auto !important;
     }
-}
+} */
 
 .main-container {
     display:         flex;
